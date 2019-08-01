@@ -1,0 +1,23 @@
+<div style="padding: 20px;">
+  <h1 style="color: blue">{{title}}</h1>
+  <h3>{{description}}</h3>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+    <a routerLink="user" class="btn btn-primary active" role="button" routerLinkActive="active">Users</a>
+        </li>
+        <li class="nav-item">
+    <a routerLink="add" class="btn btn-primary active" role="button" routerLinkActive="active">Add</a>
+        </li>
+        <li class="nav-item">
+    <a routerLink="findbylastname" class="btn btn-primary active" role="button" routerLinkActive="active">Search</a>
+        </li>
+        <li class="nav-item">
+    <a routerLink="user-table" class="btn btn-primary active" role="button" routerLinkActive="active">Edit User</a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
